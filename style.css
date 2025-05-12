@@ -39,24 +39,24 @@
 .main-hero {
 
     background-image: url(./hero.png);
-   background-size: cover;
+    background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     width: 100%;
     height: 90vh;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 .hero {
     padding: 110px;
-    
+
 }
 
 .hero .one {
     font-size: 70px;
     font-weight: lighter;
-    
+
 }
 
 .hero .two {
@@ -71,7 +71,7 @@
 }
 
 .hero button {
-    background-color: #111633 ;
+    background-color: #111633;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
@@ -95,8 +95,8 @@
 .card-Heading {
     margin-top: 50px;
     text-align: center;
-     font-size: 50px;
-     color: #333;
+    font-size: 50px;
+    color: #333;
 }
 
 .card-text {
@@ -104,25 +104,31 @@
 }
 
 
-.first-card, .second-card, .thired-card {
+.first-card,
+.second-card,
+.thired-card {
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
     gap: 50px;
     margin-top: 50px;
     transition: transform 0.3s ease;
-    
-   
+
+
 }
 
-.first-card .card, .second-card .card, .thired-card .card {
-  transition: transform 0.3s ease,
-   box-shadow 0.3s ease;
+.first-card .card,
+.second-card .card,
+.thired-card .card {
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
-.first-card .card:hover, .second-card .card:hover, .thired-card .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.first-card .card:hover,
+.second-card .card:hover,
+.thired-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* customer card */
@@ -131,9 +137,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
-   margin-left: 100px;
-   margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
+
 .customer1 {
     width: 350px;
     height: 220px;
@@ -141,18 +148,18 @@
     border-radius: 5px;
     padding: 15px;
     transition: transform 0.3s ease,
-   box-shadow 0.3s ease;
-    
+        box-shadow 0.3s ease;
+
 
 
 }
 
 .customer1:hover {
     transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.customer1 .card-img{
+.customer1 .card-img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,7 +193,7 @@
     width: 100%;
     height: 70vh;
     margin-top: 70px;
-   background-size: cover;
+    background-size: cover;
 }
 
 
@@ -199,7 +206,7 @@
 .deal h2 {
     font-size: 55px;
     font-weight: lighter;
-   margin-left: 30px;
+    margin-left: 30px;
 }
 
 .deal img {
@@ -208,9 +215,10 @@
 }
 
 .deal .order {
-      font-size: 32px;
+    font-size: 32px;
     font-weight: 400;
-   margin-left: 30px;
+    margin-left: 30px;
+
 }
 
 /* form */
@@ -222,7 +230,7 @@
     justify-content: center;
     width: 100%;
     height: 90vh;
-    
+
 }
 
 
@@ -237,14 +245,14 @@
     margin-top: 30px;
     color: #333;
     margin-left: 50px;
-    
+
 }
 
 input {
     width: 500px;
     height: 30px;
     margin-left: 50px;
-  
+
 }
 
 
@@ -253,8 +261,8 @@ textarea {
     height: 100px;
     resize: none;
     margin-left: 50px;
-    
-    
+
+
 }
 
 .last-div {
@@ -263,10 +271,10 @@ textarea {
     font-size: 30px;
     padding: 15px;
     text-align: center;
-    
+
 }
 
-.beautify{
+.beautify {
     font-family: great-vibes;
 }
 
@@ -281,7 +289,7 @@ textarea {
 @media (max-width: 768px) {
     .navbar-nav {
         margin-left: 20px;
-      
+
 
     }
 
@@ -296,137 +304,139 @@ textarea {
     /* hero */
 
     .hero {
-    padding: 0 25px 25px 25px;
-    padding-top: 50px;
-    
-    
-}
-
-.hero .one {
-    font-size: 50px;
-    font-weight: lighter;
-    margin-top: 20px;
-    
-}
-
-.hero .two {
-    font-size: 50px;
-    font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.hero .three {
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.hero button {
-    background-color: #111633 ;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 20px;
-    width: 170px;
-    margin-top: 50px;
-}
-
-/* card */
-
-.first-card, .second-card, .thired-card {
-  
-    margin-left: 0px;
-   
-   
-}
-
-.card img {
-    width: 100vw;
-    height: 50vh;
-}
-
-/* deal */
-
-   .main-card {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0px;
-   margin-top: 50px;
-
-}
-
-/* deal offer */
-.deal h1 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-left: 10px;
-}
-
-.deal h2 {
-    font-size: 32px;
-    font-weight: lighter;
-   margin-left: 10px;
-}
-
-.deal img {
-    width: 130px;
-    height: 130px;
-}
-
-.deal .order {
-      font-size: 25px;
-    font-weight: 400;
-   margin-left: 10px;
-   position: relative;
-   top: 20px;
-   left: 0;
-}
-
-.deal  .box-icon {
-    position: relative;
-    top: 25px;
-    left: 0;
-}
-
-/* form */
-
-.form {
-    background-color: #ecedee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    
-}
-
-.form-p {
-    font-size: 20px;
-    font-weight: 400;
-    font-family: sans-serif;
-    margin-top: 30px;
-    color: #333;
-   
-    
-}
-
-input {
-    width: 350px;
-    height: 30px;
-  
-  
-}
+        padding: 0 25px 25px 25px;
+        padding-top: 50px;
 
 
-textarea {
-    width: 350px;
-    height: 70px;
-    resize: none;
-    margin-left: 50px;
-    
-    
-}
+    }
+
+    .hero .one {
+        font-size: 50px;
+        font-weight: lighter;
+        margin-top: 50px;
+
+    }
+
+    .hero .two {
+        font-size: 50px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero .three {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .hero button {
+        background-color: #111633;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 20px;
+        width: 170px;
+        margin-top: 50px;
+    }
+
+    /* card */
+
+    .first-card,
+    .second-card,
+    .thired-card {
+
+        margin-left: 0px;
+
+
+    }
+
+    .card img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    /* deal */
+
+    .main-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    /* deal offer */
+    .deal h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .deal h2 {
+        font-size: 32px;
+        font-weight: lighter;
+        margin-left: 10px;
+    }
+
+    .deal img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .deal .order {
+        font-size: 25px;
+        font-weight: 400;
+        margin-left: 10px;
+        position: relative;
+        top: 60px;
+        left: 0;
+    }
+
+    .deal .box-icon {
+        position: relative;
+        top: 65px;
+        left: 0;
+    }
+
+    /* form */
+
+    .form {
+        background-color: #ecedee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .form-p {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: sans-serif;
+        margin-top: 30px;
+        color: #333;
+
+
+    }
+
+    input {
+        width: 275px;
+        height: 35px;
+
+
+    }
+
+
+    textarea {
+        width: 275px;
+        height: 70px;
+        resize: none;
+        margin-left: 50px;
+
+
+    }
 
 
 
