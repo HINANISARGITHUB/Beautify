@@ -1,0 +1,436 @@
+@font-face {
+    font-family: great-vibes;
+    src: url(../font-family/great-vibes/GreatVibes-Regular.ttf);
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: great-vibes;
+    color: #111633 !important;
+
+}
+
+.navbar {
+
+    background-color: #D4DCF0;
+    padding: 2px;
+    color: #111633 !important;
+}
+
+.navbar-nav {
+    margin-left: 600px;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: goldenrod !important;
+}
+
+/* hero */
+
+.main-hero {
+
+    background-image: url(./hero.png);
+   background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    margin:0;
+    padding: 0;
+}
+
+.hero {
+    padding: 110px;
+    
+}
+
+.hero .one {
+    font-size: 70px;
+    font-weight: lighter;
+    
+}
+
+.hero .two {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .three {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero button {
+    background-color: #111633 ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 170px;
+    margin-top: 50px;
+    border: none;
+}
+
+.hero button:hover {
+    background-color: #979eaf;
+    color: #2a2b2e;
+}
+
+/* card */
+
+.card {
+    border-left: 4px solid goldenrod;
+}
+
+.card-Heading {
+    margin-top: 50px;
+    text-align: center;
+     font-size: 50px;
+     color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+
+.first-card, .second-card, .thired-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap: 50px;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+    
+   
+}
+
+.first-card .card, .second-card .card, .thired-card .card {
+  transition: transform 0.3s ease,
+   box-shadow 0.3s ease;
+}
+
+.first-card .card:hover, .second-card .card:hover, .thired-card .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* customer card */
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+   margin-left: 100px;
+   margin-top: 50px;
+}
+.customer1 {
+    width: 350px;
+    height: 220px;
+    border: 1px solid #d3d4d8;
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform 0.3s ease,
+   box-shadow 0.3s ease;
+    
+
+
+}
+
+.customer1:hover {
+    transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.customer1 .card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer1 .card-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.customer1 p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.customer1 .name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #2a2b2e;
+}
+
+
+/* deal */
+
+.deal-background-pic {
+    background-image: url(./offer.png);
+    width: 100%;
+    height: 70vh;
+    margin-top: 70px;
+   background-size: cover;
+}
+
+
+.deal h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.deal h2 {
+    font-size: 55px;
+    font-weight: lighter;
+   margin-left: 30px;
+}
+
+.deal img {
+    width: 250px;
+    height: 220px;
+}
+
+.deal .order {
+      font-size: 32px;
+    font-weight: 400;
+   margin-left: 30px;
+}
+
+/* form */
+
+.form {
+    background-color: #ecedee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+
+
+
+
+
+.form-p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: #333;
+    margin-left: 50px;
+    
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    margin-left: 50px;
+  
+}
+
+
+textarea {
+    width: 500px;
+    height: 100px;
+    resize: none;
+    margin-left: 50px;
+    
+    
+}
+
+.last-div {
+    background-color: #D4DCF0;
+    color: #333;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+.beautify{
+    font-family: great-vibes;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-left: 20px;
+      
+
+    }
+
+    .navbar-toggler {
+        color: #111633 !important;
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    /* hero */
+
+    .hero {
+    padding: 0 25px 25px 25px;
+    padding-top: 50px;
+    
+    
+}
+
+.hero .one {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 20px;
+    
+}
+
+.hero .two {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .three {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hero button {
+    background-color: #111633 ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 170px;
+    margin-top: 50px;
+}
+
+/* card */
+
+.first-card, .second-card, .thired-card {
+  
+    margin-left: 0px;
+   
+   
+}
+
+.card img {
+    width: 100vw;
+    height: 50vh;
+}
+
+/* deal */
+
+   .main-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+   margin-top: 50px;
+
+}
+
+/* deal offer */
+.deal h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.deal h2 {
+    font-size: 32px;
+    font-weight: lighter;
+   margin-left: 10px;
+}
+
+.deal img {
+    width: 130px;
+    height: 130px;
+}
+
+.deal .order {
+      font-size: 25px;
+    font-weight: 400;
+   margin-left: 10px;
+   position: relative;
+   top: 20px;
+   left: 0;
+}
+
+.deal  .box-icon {
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+
+/* form */
+
+.form {
+    background-color: #ecedee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.form-p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: #333;
+   
+    
+}
+
+input {
+    width: 350px;
+    height: 30px;
+  
+  
+}
+
+
+textarea {
+    width: 350px;
+    height: 70px;
+    resize: none;
+    margin-left: 50px;
+    
+    
+}
+
+
+
+
+
+
+}
